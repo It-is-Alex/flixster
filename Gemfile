@@ -18,6 +18,9 @@ gem 'devise'
 
 #For image handling
 gem 'carrierwave'
+gem 'fog', '~> 1.3.1'
+
+gem 'figaro'
 
 gem 'simple_form'
 
