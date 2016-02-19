@@ -16,6 +16,9 @@ gem 'sass-rails'
 #For Users and authentication
 gem 'devise'
 
+#For image handling
+gem 'carrierwave'
+
 gem 'simple_form'
 
 # Use Uglifier as compressor for JavaScript assets
