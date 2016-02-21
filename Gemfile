@@ -8,6 +8,8 @@ gem 'rails_12factor', group: :production
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+gem 'mini_magick', '~> 4.3.1'
+
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '3.3.4.1'
 gem 'sprockets', '<= 2.11.0'
