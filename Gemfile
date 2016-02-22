@@ -18,6 +18,9 @@ gem 'sass-rails'
 #For Users and authentication
 gem 'devise'
 
+#For credit cards
+gem 'stripe'
+
 #For image handling
 gem 'carrierwave'
 gem 'mini_magick', '~> 4.3.1'
