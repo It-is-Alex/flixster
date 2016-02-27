@@ -18,6 +18,9 @@ gem 'sass-rails'
 #For Users and authentication
 gem 'devise'
 
+#Other
+gem 'ranked-model'
+
 #For credit cards
 gem 'stripe'
 
