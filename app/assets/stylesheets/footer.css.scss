@@ -1,5 +1,4 @@
 $footer-height: 100px;
-
 html,
 body {
   height: 100%;
@@ -18,15 +17,25 @@ body {
 
 /* Set the fixed height of the footer here */
 #footer {
-  height: $footer-height;
+  height: auto;
   background-color: rgba(36,32,33,0.9);
   color: white;
   font-family: "Helvetica Neue", Helvetica;
   padding: 10px 0px;
   margin-top: 30px;
+  font-weight: 100;
 }
 
 #footer a {
   color: white;
   font-weight: 100;
+}
+
+.social-btn {
+  width: 32px;
+  margin: 4px;
+}
+
+.social a:hover {
+  text-decoration: none;
 }
