@@ -1,4 +1,5 @@
 class Section < ActiveRecord::Base
+  validates :title, presence: true
   belongs_to :course
   has_many :lessons
 
